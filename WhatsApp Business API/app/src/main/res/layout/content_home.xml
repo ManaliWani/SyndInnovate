@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/image2" />
+
+    <Button
+        android:id="@+id/transaction"
+        android:layout_width="210dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="294dp"
+        android:background="#7c0103"
+        android:text="Make Transaction"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/liveChat"
+        android:layout_width="209dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="225dp"
+        android:background="#7c0103"
+        android:text="Chat Bot"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/notifications"
+        android:layout_width="209dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp"
+        android:background="#7c0103"
+        android:text="Notifications"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@color/colorPrimaryDark"
+        tools:srcCompat="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="368dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="Welcome John  !!!!"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:layout_alignTop="@+id/transaction"
+        android:layout_toStartOf="@+id/transaction"
+        app:srcCompat="@drawable/transaction" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:layout_alignTop="@+id/liveChat"
+        android:layout_toStartOf="@+id/transaction"
+        app:srcCompat="@drawable/chat" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:layout_alignTop="@+id/notifications"
+        android:layout_toStartOf="@+id/transaction"
+        app:srcCompat="@drawable/notification" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WhatsappAPIIntegration</string>
+    <string name="action_settings">Settings</string>
+    <array name="accountType">
+        <item>Current Account</item>
+        <item>Savings Account</item>
+        <item>Both </item>
+    </array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_transaction1">TransactionActivity1</string>
+    <string name="title_activity_credit">Credit</string>
+    <string name="title_activity_debit">Debit</string>
+    <string name="title_activity_transfer">Transfer</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "430485744890",
+    "firebase_url": "https://whatsappapiintegration.firebaseio.com",
+    "project_id": "whatsappapiintegration",
+    "storage_bucket": "whatsappapiintegration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430485744890:android:a02155dee026f417f82d43",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.whatsappapiintegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430485744890-4pag5n5cp5f6g82uatnn99r6ljajv8ea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.whatsappapiintegration",
+            "certificate_hash": "68a66ca3fb26156ea3b0b3e2b83d9f45aa9ca84d"
+          }
+        },
+        {
+          "client_id": "430485744890-r1qn8o7mr6hhimk1ilrmseuqtjr1qj6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdEPWNnY5Y5-Ye6PBeCdodZpeADNP4oqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430485744890-r1qn8o7mr6hhimk1ilrmseuqtjr1qj6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
